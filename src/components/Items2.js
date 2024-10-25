@@ -19,7 +19,7 @@ const Items2 = () => {
       {
         id: 3,
         image: 'veg3',
-        name: 'Lady-s Finger',
+        name: 'Lady Finger',
         price: 200
       },
       {
