@@ -1,4 +1,5 @@
 import React , {useState} from 'react'
+import VegetablesCard from './VegetablesCard'
 
 const Items2 = () => {
 
@@ -45,10 +46,9 @@ const Items2 = () => {
     <section>
       {
         vegetables.map((vegetable) => {
-          return<vegetablesCard key={vegetable.id} vegetable={vegetable} />
+          return <VegetablesCard key={vegetable.id} vegetable={vegetable} />
         }
-      )
-      }
+      )}
       </section>
   )
 }
